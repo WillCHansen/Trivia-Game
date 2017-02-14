@@ -159,7 +159,7 @@ var trivia = {
 };
 
 $("#start").on("click", function(){
-	this.remove();
+	$(this).remove();
 	trivia.gameStart(".mainContent");
 });
 
